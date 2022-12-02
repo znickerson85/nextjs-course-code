@@ -1,3 +1,5 @@
+import { loadGetInitialProps } from "next/dist/next-server/lib/utils";
+import { Fragment } from "react";
 import classes from './MeetupDetail.module.css';
 
 function MeetupDetail(props) {
